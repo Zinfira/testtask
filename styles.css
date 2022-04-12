@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 3vw;
+}
+
+.header__logo {
+  position: relative;
+  padding: 1vw 0 0 4.7vw;
+  width: 0;
+  height: 0;
+}
+
+.header__logo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(img/logo.png) no-repeat 0 0;
+  width: 16.4vw;
+  height: 2.4vw;
+}
