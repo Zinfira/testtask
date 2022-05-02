@@ -83,3 +83,137 @@ body {
   padding: 1vw 6vw;
   border-radius: 5px;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 58vw;
+  background: no-repeat url(img/man_with_laptop.png);
+  /* background-size: 25vw 25vw; */
+  background-position: 5.5vw 27.2vw;
+  padding: 10.5vw 0vw 2vw 0;
+}
+
+.about__title {
+  font-size: 4.7vw;
+  font-weight: 400;
+  padding-left: 28vw;
+  margin-bottom: 3.3vw;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 55.5vw;
+  margin-left: 43.3vw;
+}
+
+.description__subtitle {
+  font-size: 2.4vw;
+  margin-bottom: 0.3vw;
+}
+
+.description__text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7vw;
+  letter-spacing: 0.3px;
+  line-height: 2.1vw;
+  margin-bottom: 1.3vw;
+  word-spacing: 0.3vw;
+}
+
+.description__text_color_red {
+  color: red;
+  padding-top: 0.8vw;
+}
+
+.user-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 95.7vw;
+  padding: 9.7vw 0vw 2vw 0vw;
+}
+
+.user-section__title {
+  margin-bottom: 6vw;
+}
+
+.user-section__title > h1 {
+  font-size: 5vw;
+  margin-bottom: 1vw;
+}
+
+.user-section__title > p {
+  font-size: 1.6vw;
+  margin-top: 0;
+  margin-left: 5.3vw;
+}
+
+.users {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: max-content;
+  margin: 0 1.5vw;
+}
+
+.users__user {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 32vw;
+  height: 32vw;
+}
+
+.user-section__users {
+  margin-bottom: 2.5vw;
+}
+
+.users__user:nth-child(n+4) {
+  height: max-content;
+}
+
+.users__user > h3 {
+  width: 64%;
+  font-size: 2.4vw;
+  text-align: center;
+  margin: 1vw auto;
+  line-height: 3vw;
+}
+
+.users__user:nth-child(4) > h3 {
+  width: 57%;
+}
+
+.users__user > p {
+  margin: 0;
+  text-align: center;
+  width: 69%;
+  font-size: 1.6vw;
+  line-height: 2.4vw;
+}
+
+.user-section__button, .form__button {
+  font-size: 1.5vw;
+  padding: 0.8vw 6.5vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #ef5b4c;
+}
+
+.footer {
+  height: 104.7vw;
+  border: 1px solid red;
+  padding: 10.8vw 24.8vw;
+}
+
+.form__title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 5.2vw;
+  margin-bottom: 1vw;
+}
